@@ -34,7 +34,7 @@ RUN apt-get update \
         snips-nlu=0.64.0 \
         snips-tts=0.64.0 \
     && rm -rf /var/lib/apt/lists/* \
-    && curl -L -o /assistant_Hass_de.zip https://s3.amazonaws.com/hassio-addons-data/assistant_Hass_de.zip \
-    && curl -L -o /assistant_Hass_en.zip https://s3.amazonaws.com/hassio-addons-data/assistant_Hass_en.zip \
-    && curl -L -o /assistant_Hass_fr.zip https://s3.amazonaws.com/hassio-addons-data/assistant_Hass_fr.zip
+    && curl -L -o /assistant_Hass_de.zip https://github.com/shaamilis/hassio-addons/raw/master/snips_models/assistant_Hass_de.zip \
+    && curl -L -o /assistant_Hass_en.zip https://github.com/shaamilis/hassio-addons/raw/master/snips_models/assistant_Hass_en.zip \
+    && curl -L -o /assistant_Hass_fr.zip https://github.com/shaamilis/hassio-addons/raw/master/snips_models/assistant_Hass_fr.zip
 ENTRYPOINT [ "/run.sh" ]
