@@ -85,7 +85,7 @@ You have several options to get them answered:
 In case you've found an bug, please [open an issue on our GitHub][issue].
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [discord]: https://discord.gg/c5DvZ4e
