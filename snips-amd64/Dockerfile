@@ -18,8 +18,8 @@ RUN apt-get update \
         supervisor \
         mpg123 \
     && rm -rf /var/lib/apt/lists/* \
-    && bash -c 'echo "deb https://debian.snips.ai/stretch stable main" > /etc/apt/sources.list.d/snips.list' \
-            && apt-key adv --keyserver pgp.mit.edu --recv-keys F727C778CCB0A455; 
+    && bash -c  'echo "deb https://debian.snips.ai/stretch stable main" > /etc/apt/sources.list.d/snips.list' \
+            && apt-key adv --keyserver pgp.mit.edu --recv-keys F727C778CCB0A455;  
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
