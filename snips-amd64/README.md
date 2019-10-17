@@ -5,7 +5,7 @@ Support for Snips.ai voice assistant.
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 ## About
 
-Snips.ai is an AI-powered voice assistant that runs on the Raspberry Pi 3 and x86 platforms.
+Snips.ai is an AI-powered voice assistant that runs on the x86 platform.
 In contrast to Google Assistant or Amazon Alexa, it runs on-device and is private by design.
 
 ## Installation
