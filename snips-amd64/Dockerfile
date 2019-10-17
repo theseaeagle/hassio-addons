@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM homeassistant/amd64-homeassistant-base:stretch
+FROM homeassistant/amd64-homeassistant-base:latest
 
 # Copy data
 COPY run.sh /
