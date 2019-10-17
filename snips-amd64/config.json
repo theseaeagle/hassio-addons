@@ -28,5 +28,5 @@
       "platform": "str"
     }
   },
-  "image": "mshaemil/snips-amd64"
+  "image": "mshaemil/snips-amd64-ubuntu_18.04"
 }
